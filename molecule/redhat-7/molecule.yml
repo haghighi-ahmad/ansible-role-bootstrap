@@ -13,9 +13,9 @@ platforms:
     pre_build_image: yes
     registry:
       url: registry.access.redhat.com
-      credentials:
-        username: $registryredhatiousername
-        password: $registryredhatiopassword
+      # credentials:
+      #   username: $registryredhatiousername
+      #   password: $registryredhatiopassword
 provisioner:
   name: ansible
   playbooks:
